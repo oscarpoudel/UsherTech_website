@@ -8,8 +8,8 @@ const AboutusDetail = () => {
                         <h2 className='text-56'>UsherTech.</h2>
                     </div>
                     <div className='flex flex-col gap-12'>
-                        <p className="text-secondary dark:text-white">It’s a canvas for your creativity. It’s your opportunity to transform bold ideas into dynamic, interactive experiences. Your work can shape identities, tell compelling stories, or spark meaningful change. As the digital landscape grows, so do the possibilities. And whether you thrive working remotely or in a buzzing agency space, the thrill of seeing your vision come to life is unmatched.</p>
-                        <p className='text-secondary dark:text-white'>At UsherTech, we bring ideas to life through a range of services: branding, web development, agency solutions, content creation, SaaS, and motion & 3D modeling. As a web designer, you merge artistry and technology to craft "digital experiences" that inform, captivate, and inspire. Every day brings something new — one moment you’re sketching innovative concepts, the next you’re turning them into seamless, responsive designs. Web design keeps you pushing boundaries and creating at every turn!</p>
+                        <p className="text-secondary dark:text-white">Construction teams face constant pressure: manual data entry, disconnected workflows, safety risks, and delays eating into margins. Technology exists to solve these problems, but it's fragmented, expensive, and hard to implement. We're changing that.</p>
+                        <p className='text-secondary dark:text-white'>UsherTech provides proven automation, mobile apps, and consulting tailored to construction. From AI-powered data extraction and RFI automation to offline-capable field apps and predictive dashboards—we integrate with platforms you already use: Procore, ACC, Bluebeam, SharePoint. Our mission: eliminate busywork, reduce rework risk, accelerate delivery, and keep teams safe. Whether you need a single script or enterprise-wide transformation, we're your technology partner.</p>
                     </div>
                 </div>
             </div>

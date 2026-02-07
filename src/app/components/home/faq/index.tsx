@@ -35,8 +35,8 @@ function Faq() {
                                 </div>
                                 <div className="flex flex-col gap-11">
                                     <div className="flex flex-col gap-5 ">
-                                        <h2 className="max-w-3xl">Frequently asked questions</h2>
-                                        <p className="max-w-2xl text-secondary/70 dark:text-white/70">Discover how we tailor our solutions to meet unique needs, delivering impactful strategies, personalized branding, and exceptional customer experiences.</p>
+                                        <h2 className="max-w-3xl">Frequently Asked Questions</h2>
+                                        <p className="max-w-2xl text-secondary/70 dark:text-white/70">Got questions about our construction technology solutions? We've compiled answers to common questions about integration, support, implementation, and more.</p>
                                     </div>
                                 </div>
                             </div>

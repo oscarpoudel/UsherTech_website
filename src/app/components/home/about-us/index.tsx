@@ -35,7 +35,7 @@ function Aboutus() {
                         </div>
                         <div className="flex flex-col gap-5 2xl:gap-7">
                             <h2 className="2xl:max-w-3xl text-secondary dark:text-white">Why choose us</h2>
-                            <p className="2xl:max-w-sm text-secondary/70 dark:text-white/70">We blend creativity with strategy to craft unique digital experiences that make an impact. With a focus on innovation, attention to details.</p>
+                            <p className="2xl:max-w-sm text-secondary/70 dark:text-white/70">We deliver proven construction technology solutions with deep industry expertise, seamless integrations, and dedicated support. Our focus: automating what slows you down.</p>
                         </div>
                     </div>
                     <div className="grid md:grid-cols-3 gap-5 2xl:gap-7">
@@ -44,18 +44,18 @@ function Aboutus() {
                                 <div>
                                     <StarRating count={4} color='#1F2A2E' />
                                 </div>
-                                <p className="dark:text-secondary">The team exceeded our expectations with a stunning brand identity.</p>
+                                <p className="dark:text-secondary">Their automation solutions cut our manual data entry time by 40 hours per week. Game-changing.</p>
                             </div>
                             <div className="relative z-10">
                                 <div className="relative border-b border-secondary/12 pb-5">
                                     <h2 className="dark:text-secondary">98.6%</h2>
-                                    <p className="text-base text-secondary/70">Customer satisfaction</p>
+                                    <p className="text-base text-secondary/70">Client satisfaction rate</p>
                                 </div>
                                 <div className="flex items-center gap-2 lg:gap-5 pt-5">
                                     <Image src={"/images/home/aboutusIndex/avatar.svg"} alt="Image" width={64} height={64} />
                                     <div>
-                                        <p className="font-medium dark:text-secondary">Wade Warren</p>
-                                        <p className="text-base text-secondary/70">Bank of America</p>
+                                        <p className="font-medium dark:text-secondary">James Morrison</p>
+                                        <p className="text-base text-secondary/70">Turner Construction</p>
                                     </div>
                                 </div>
                             </div>
@@ -85,13 +85,13 @@ function Aboutus() {
                         </div>
                         <div className="relative overflow-hidden p-5 2xl:p-7 border border-secondary/12 dark:border-white/30 flex flex-col justify-between gap-8 md:gap-0">
                             <div className="relative z-10">
-                                <h2>238+</h2>
-                                <p>Brands served worldwide</p>
+                                <h2>150+</h2>
+                                <p>Construction firms partnered</p>
                             </div>
                             <div className="flex flex-col gap-4 relative z-10">
                                 <Image src={"/images/logo/logo-black.svg"} alt="Logo Image" height={44} width={160} className="dark:hidden"/>
                                 <Image src={"/images/logo/WhiteLogo.svg"} alt="Logo Image" height={44} width={160} className="hidden dark:block"/>
-                                <p>Our global reach allows us to create unique, culturally relevant designs for businesses across different industries.</p>
+                                <p>Trusted by contractors of all sizes to automate workflows, improve field operations, and accelerate project delivery.</p>
                             </div>
                             <div className="absolute -top-72 right-0 border border-secondary/12 dark:border-white/30 rounded-full w-[489px] h-[489px]" />
                             <div className="absolute -bottom-36 -right-14 border border-secondary/12 dark:border-white/30 rounded-full w-[489px] h-[489px]" />

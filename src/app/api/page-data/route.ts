@@ -22,22 +22,23 @@ const avatarList = [
 const statsFactData = {
     number: '01',
     name: "Stats & facts",
-    heading: "High quality web design solutions you can trust.",
-    description: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project.",
+    heading: "Construction technology solutions built for your workflows.",
+    description: "We deliver proven automation, mobile apps, and consulting services that streamline construction operations and drive measurable results.",
     scoreData: [
         {
-            number: 40,
-            numberValue: 'K',
-            scoreDescp: "People who have launched their websites"
+            number: 150,
+            postfix: '+',
+            scoreDescp: "Construction teams using our solutions"
         },
         {
-            number: 238,
-            scoreDescp: "Experienced professionals ready to assist"
+            number: 8,
+            numberValue: 'M+',
+            scoreDescp: "Hours saved through automation annually"
         },
         {
-            number: 3,
-            numberValue: 'M',
-            scoreDescp: "Support through messages and live consultations"
+            number: 98,
+            numberValue: '%',
+            scoreDescp: "Client satisfaction rate"
         },
     ]
 };
@@ -45,54 +46,54 @@ const statsFactData = {
 const servicesData = {
     number: '03',
     name: "Services",
-    heading: "What we do",
-    description: "A glimpse into our creativity—exploring innovative designs, successful collaborations, and transformative digital experiences.",
+    heading: "What we build for construction",
+    description: "From AI-powered automation to mobile apps and consulting—solutions designed to optimize workflows, improve safety, and accelerate project delivery.",
     data: [
         {
             id: 1,
             image: "/images/home/services/services_1.png",
-            heading: "Brand identity",
-            descp: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project."
+            heading: "AI & Automation Scripts",
+            descp: "Automated workflows for data extraction, quantity takeoffs, cost tracking, RFI drafting, safety checks, and document control across your favorite platforms."
         },
         {
             id: 2,
             image: "/images/home/services/services_2.png",
-            heading: "Web development",
-            descp: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project."
+            heading: "Mobile Field Apps",
+            descp: "Android applications with offline capabilities for inspections, photo capture, punch lists, drawing markup, embedded calculators, and real-time reporting."
         },
         {
             id: 3,
             image: "/images/home/services/services_3.png",
-            heading: "Content creation",
-            descp: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project."
+            heading: "AI & Automation Consulting",
+            descp: "End-to-end assessment, LLM-based assistants, computer vision solutions, predictive analytics, and validated models for your specific workflows."
         },
         {
             id: 4,
             image: "/images/home/services/services_4.png",
-            heading: "Motion & 3d modeling",
-            descp: "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project."
+            heading: "Custom Dashboards & Tools",
+            descp: "KPI dashboards, automated reporting, quality management systems, resource tracking, and role-based views integrated with your existing platforms."
         },
     ]
 };
 
 const testimonialData = {
     data_1: {
-        preTitle: "Hear from them",
-        title: "Our website redesign was flawless. They understood our vision perfectly!",
-        author: "Albert Flores",
-        company: "MasterCard"
+        preTitle: "Client Success",
+        title: "Their automation saved us 40 hours per week on data entry and reporting. Game-changing.",
+        author: "James Morrison",
+        company: "Turner Construction"
     },
     data_2: {
-        preTitle: "Hear from them",
-        title: "From concept to execution, they delivered outstanding results. Highly recommend their expertise!",
-        author: "Robert Fox",
-        company: "Mitsubishi"
+        preTitle: "Client Success",
+        title: "The mobile app transformed how we manage field inspections—seamless, intuitive, and offline-capable. Essential tool.",
+        author: "Sarah Chen",
+        company: "Mortenson"
     },
     data_3: {
-        preTitle: "Hear from them",
-        title: "Super smooth process with incredible results. highly recommend!",
-        author: "Jenny Wilson",
-        company: "Pizza Hut"
+        preTitle: "Client Success",
+        title: "Their consulting helped us identify and implement automation that cut project delivery time by 20%. Highly recommend.",
+        author: "Robert Gonzales",
+        company: "Walsh Group"
     },
 };
 
@@ -101,8 +102,8 @@ const teamData = {
     data: [
         {
             image: "/images/home/team/team-img-1.png",
-            name: "Martha Finley",
-            position: "Creative Director",
+            name: "Marcus Andrews",
+            position: "Founder & Chief Technology Officer",
             socialLinks: [
                 {
                     icon: "/images/socialIcon/twitter.svg",
@@ -120,8 +121,8 @@ const teamData = {
         },
         {
             image: "/images/home/team/team-img-2.png",
-            name: "Floyd Miles",
-            position: "Marketing Strategist",
+            name: "Elena Rodriguez",
+            position: "VP of Construction Solutions",
             socialLinks: [
                 {
                     icon: "/images/socialIcon/twitter.svg",
@@ -139,8 +140,8 @@ const teamData = {
         },
         {
             image: "/images/home/team/team-img-3.png",
-            name: "Glenna Snyder",
-            position: "Lead Designer",
+            name: "David Kumar",
+            position: "Lead Software Architect",
             socialLinks: [
                 {
                     icon: "/images/socialIcon/twitter.svg",
@@ -158,8 +159,8 @@ const teamData = {
         },
         {
             image: "/images/home/team/team-img-4.png",
-            name: "Albert Flores",
-            position: "UX/UI Developer",
+            name: "Jessica Martinez",
+            position: "Customer Success Manager",
             socialLinks: [
                 {
                     icon: "/images/socialIcon/twitter.svg",
@@ -181,24 +182,24 @@ const teamData = {
 const pricingData = {
     data: [
         {
-            planName: "Launch",
-            planPrice: "$699",
-            planDescp: "Ideal for startups and small businesses taking their first steps online.",
-            planIncludes: ["Competitive research & insights","Wireframing and prototyping","Basic tracking setup (Google Analytics, etc.)","Standard contact form integration"]
+            planName: "Starter",
+            planPrice: "$1,499",
+            planDescp: "Perfect for small teams looking to automate specific workflows.",
+            planIncludes: ["Up to 2 automation scripts","Basic mobile app customization","Email support","1 month of implementation assistance"]
         },
         {
-            planName: "Scale",
+            planName: "Professional",
             tag: "Most popular",
-            planPrice: "$1,699",
-            cancelPrice: "$2,199",
-            planDescp: "Perfect for growing brands needing more customization and flexibility.",
-            planIncludes: ["Everything in the Launch Plan","Custom design for up to 10 pages","Seamless social media integration","SEO enhancements for key pages"]
+            planPrice: "$4,999",
+            cancelPrice: "$6,499",
+            planDescp: "Ideal for mid-size contractors needing comprehensive automation and mobile solutions.",
+            planIncludes: ["Up to 5 automation scripts","Fully customized mobile app","Custom dashboard development","Priority support","Quarterly training & optimization"]
         },
         {
-            planName: "Elevate",
-            planPrice: "$3,499",
-            planDescp: "Best suited for established businesses wanting a fully tailored experience.",
-            planIncludes: ["Everything in the Scale Plan","E-commerce functionality (if needed)","Branded email template design","Priority support for six months after launch"]
+            planName: "Enterprise",
+            planPrice: "$12,999",
+            planDescp: "For large organizations seeking end-to-end digital transformation and consulting.",
+            planIncludes: ["Unlimited custom scripts & dashboards","Enterprise mobile app suite","AI/ML consulting & integration","Dedicated account manager","24/7 priority support for 1 year"]
         },
     ],
     partnerLogo: [
@@ -235,38 +236,38 @@ const faqData = {
     ]
 };
 const contactData = {
-    keypoint:["Always-On Customer Support","Service Across the Globe"],
+    keypoint:["Expert Construction Technology Support","Proven Implementation & Training"],
     managerProfile:{
         image:"/images/avatar/avatar_1.jpg",
-        name:"Courtney Henry",
-        position:"Onboarding & Success Manager"
+        name:"Jennifer Walsh",
+        position:"Customer Success Director"
     }
 }
 
 const aboutusStats = [
     {
-        number: 45,
+        number: 150,
         postfix:"+",
-        title: 'Presence in global markets',
-        descp: "Expanding reach across international regions with localized expertise and worldwide impact."
+        title: 'Construction teams partnered',
+        descp: "Serving mid-size to enterprise contractors across building, civil, and specialty trades."
     },
     {
-        number: 15,
-        prefix: "$",
-        postfix: "M",
-        title: 'In strategic investments',
-        descp: "Driving growth with curated partnerships and high-performing, audience-driven initiatives."
+        number: 8,
+        prefix: "",
+        postfix: "M+",
+        title: 'Hours saved annually',
+        descp: "Our automation solutions reduce manual work and accelerate project delivery consistently."
     },
     {
-        number: 158,
+        number: 500,
         postfix: "+",
-        title: 'Trusted brand collaborations',
-        descp: "Shaping industry conversations through innovation, creativity, and lasting influence."
+        title: 'Workflows automated',
+        descp: "From data extraction to safety tracking—proven solutions across all construction phases."
     },
 ]
 
 const servicesSliderData = [
-    "Branding", "Web development", "Agency","Content creation","SaaS","Motion & 3d modeling","Photography"
+    "Automation Scripts", "Mobile Apps", "AI Consulting","Custom Dashboards","Robotics","Hardware Solutions","Training & Support"
 ]
 
 

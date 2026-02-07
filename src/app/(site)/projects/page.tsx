@@ -13,8 +13,8 @@ export default function Page() {
         <main>
             <Herobanner
                 bannerimage="/images/projects/banner/projects-banner.png"
-                heading="Projects"
-                desc="A <span>showcase of creativity</span>, strategy, and results explore the projects that define us." />
+                heading="Solutions"
+                desc="Real-world applications of <span>construction automation</span>—proven results for contractors managing complex workflows." />
             <ProjectList />    
         </main>
     );

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 
 function HeroSection() {
@@ -36,15 +37,22 @@ function HeroSection() {
                                     />
                                 </div>
                                 <p className="text-white/70 max-w-md">
-                                    We create <span className="text-primary">high-performing</span> digital technologies to boost your construction workflows.
+                                    We build <span className="text-primary">AI-powered automation</span>, mobile apps, and consulting solutions that optimize construction workflows and drive measurable results.
                                 </p>
                             </div>
                             <div className="flex flex-col lg:flex-row items-start lg:items-end gap-4">
                                 <h1 className="large-heading">UsherTech</h1>
                                 <div>
-                                    <div className="bg-primary rounded-full p-1.5 pl-8">
-                                        <Image src={"/images/Icon/arrow-icon.svg"} alt="icon" height={52} width={52} />
+                                    <Link href="/about" aria-label="Go to About page">
+                                    <div className="bg-primary rounded-full p-1.5 pl-8 cursor-pointer inline-block">
+                                        <Image
+                                        src="/images/Icon/arrow-icon.svg"
+                                        alt="icon"
+                                        width={52}
+                                        height={52}
+                                        />
                                     </div>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

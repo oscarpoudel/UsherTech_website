@@ -14,8 +14,8 @@ export default function Page() {
         <main>
             <Herobanner
                 bannerimage="/images/about-us/banner/aboutus-banner.png"
-                heading="About us"
-                desc="We craft <span>innovative digital</span> designs that amplify brand identity and drive meaningful results" />
+                heading="About Us"
+                desc="We deliver <span>construction technology</span> solutions that optimize workflows, reduce risk, and accelerate project delivery." />
             <AboutusDetail />
             <AboutusStats/>
             <AboutusFullimg/>

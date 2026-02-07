@@ -86,7 +86,7 @@ const Contact = (props: { contactdataNumber: string }) => {
                     <div className="flex flex-col xl:flex xl:flex-row gap-15 xl:gap-48">
                         <div className="max-w-md flex flex-col gap-9 md:gap-16">
                             <div className="flex flex-col gap-5 md:gap-8">
-                                <p className="max-w-2xl text-secondary/70 dark:text-white/70">Let’s collaborate and create something amazing! Tell me about your project—I’m all ears.</p>
+                                <p className="max-w-2xl text-secondary/70 dark:text-white/70">Ready to transform your construction workflows? Let's talk about how our automation, mobile solutions, and consulting can drive results for your team.</p>
                                 <div>
                                     <ul className="flex flex-col gap-3">
                                         {contactData?.keypoint?.map((value:any, index:any) => {

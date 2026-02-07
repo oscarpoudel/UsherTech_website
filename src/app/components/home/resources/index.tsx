@@ -33,8 +33,8 @@ const Resources = () => {
                                 </div>
                                 <div className="flex flex-col gap-11">
                                     <div className="flex flex-col gap-5 ">
-                                        <h2 className="max-w-3xl">Recent news</h2>
-                                        <p className="max-w-2xl text-secondary/70 dark:text-white/70">Explore the latest trends, bold projects, and creative insights from our agency—shaping the future of branding, digital experiences, and storytelling.</p>
+                                        <h2 className="max-w-3xl">Resources & Updates</h2>
+                                        <p className="max-w-2xl text-secondary/70 dark:text-white/70">Learn best practices for construction automation, industry trends, case studies, and insights from our team—helping you optimize workflows and accelerate delivery.</p>
                                     </div>
                                 </div>
                             </div>
