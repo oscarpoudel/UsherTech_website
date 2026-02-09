@@ -29,14 +29,14 @@ function Services() {
         return () => window.removeEventListener("resize", checkScreenSize);
     }, []);
 
-    const handleMouseEnter = (index: number, event: React.MouseEvent<HTMLDivElement>) => {
+    const handleMouseEnter = (index: number, event: any) => {
         setActiveIndex(index);
 
-        // Get hovered service div position
-        const serviceDiv = event.currentTarget;
-        const container = serviceDiv.parentElement;
+        // Get hovered/touched service div position
+        const serviceDiv = event?.currentTarget;
+        const container = serviceDiv?.parentElement;
 
-        if (container) {
+        if (container && serviceDiv) {
             const serviceRect = serviceDiv.getBoundingClientRect();
             const containerRect = container.getBoundingClientRect();
 
@@ -94,6 +94,8 @@ function Services() {
                                         <div
                                             key={index}
                                             onMouseEnter={(e) => handleMouseEnter(index, e)}
+                                            onClick={(e) => handleMouseEnter(index, e)}
+                                            onTouchStart={(e) => handleMouseEnter(index, e)}
                                             className="group py-6 xl:py-10 border-t border-white/12 cursor-pointer flex xl:flex-row flex-col xl:items-center items-start justify-between xl:gap-10 gap-1 relative">
                                             <h3 className="text-white group-hover:text-primary 2xl:w-full 2xl:max-w-sm py-1">
                                                 {value.heading}
