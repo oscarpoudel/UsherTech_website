@@ -15,7 +15,7 @@ const Logo = (props: { sticky: boolean }) => {
                 priority={true}
                 className='hidden xsm:block'
             />
-            <Image src={sticky ? "/images/logo/favicondark.svg" : "/images/logo/favicon.svg"} alt='logo' width={120} height={60} className='block xsm:hidden' />
+            <Image src={sticky ? "/images/logo/favicondark.svg" : "/images/logo/WhiteLogo.svg"} alt='logo' width={100} height={60} className='block xsm:hidden' />
         </Link>
     );
 };
