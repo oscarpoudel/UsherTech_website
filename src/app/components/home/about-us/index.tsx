@@ -53,10 +53,10 @@ function Aboutus() {
                                 </div>
                                 <div className="flex items-center gap-2 lg:gap-5 pt-5">
                                     <Image src={"/images/home/aboutusIndex/avatar.svg"} alt="Image" width={64} height={64} />
-                                    <div>
+                                    {/* <div>
                                         <p className="font-medium dark:text-secondary">James Morrison</p>
                                         <p className="text-base text-secondary/70">Turner Construction</p>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="absolute bottom-0 right-0">
@@ -85,7 +85,7 @@ function Aboutus() {
                         </div>
                         <div className="relative overflow-hidden p-5 2xl:p-7 border border-secondary/12 dark:border-white/30 flex flex-col justify-between gap-8 md:gap-0">
                             <div className="relative z-10">
-                                <h2>150+</h2>
+                                <h2>10+</h2>
                                 <p>Construction firms partnered</p>
                             </div>
                             <div className="flex flex-col gap-4 relative z-10">

@@ -19,7 +19,7 @@ export default function Page() {
             <AboutusDetail />
             <AboutusStats/>
             <AboutusFullimg/>
-            <Team teamdataNumber="01"/>
+            {/* <Team teamdataNumber="01"/> */}
         </main>
     );
 };

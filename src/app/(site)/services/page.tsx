@@ -10,7 +10,7 @@ export default function Page() {
     return (
         <main>
             <Herobanner
-                bannerimage="/images/home/services/services_1.png"
+                bannerimage="/images/home/services/services-banner.jpg"
                 heading="Our Services"
                 desc="Comprehensive <span>construction technology</span> solutions designed to optimize your workflows and drive measurable results." />
             <ServicesDetail />

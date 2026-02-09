@@ -37,7 +37,7 @@ const Contact = (props: { contactdataNumber: string }) => {
         e.preventDefault();
         setLoader(true);
 
-        fetch("https://formsubmit.co/ajax/niravjoshi87@gmail.com", {
+        fetch("https://formsubmit.co/ajax/opoudel27@gmail.com", {
             method: "POST",
             headers: { "Content-type": "application/json" },
             body: JSON.stringify({
@@ -72,7 +72,7 @@ const Contact = (props: { contactdataNumber: string }) => {
                     <div className="flex flex-col gap-14 xl:gap-24">
                         <div className="flex flex-col xl:flex xl:flex-row items-start gap-8">
                             <div className="flex items-center py-3 gap-4 md:gap-8 w-full max-w-xl">
-                                <span className="bg-primary dark:text-secondary py-1.5 px-2.5 text-base font-medium rounded-full">{contactdataNumber ? contactdataNumber : 10}</span>
+                                <span className="bg-primary dark:text-secondary py-1.5 px-2.5 text-base font-medium rounded-full"> 06</span>
                                 <div className="h-px w-16 bg-black/12 dark:bg-white/12" />
                                 <p className="section-bedge py-1.5 px-4 rounded-full">Contact us</p>
                             </div>

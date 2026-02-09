@@ -68,7 +68,7 @@ const footerData = {
         { name: "Solutions", href: "/projects" },
         { name: "Terms", href: "/terms-and-conditions" },
         { name: "Privacy Policy", href: "/privacy-policy" },
-        { name: "Error 404", href: "/not-found" }
+        // { name: "Error 404", href: "/not-found" }
     ],
     socialLinks: [
         { name: "Facebook", href: "https://www.facebook.com/" },

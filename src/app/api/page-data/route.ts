@@ -80,20 +80,20 @@ const testimonialData = {
     data_1: {
         preTitle: "Client Success",
         title: "Their automation saved us 40 hours per week on data entry and reporting. Game-changing.",
-        author: "James Morrison",
-        company: "Turner Construction"
+        // author: "James Morrison",
+        // company: "Turner Construction"
     },
     data_2: {
         preTitle: "Client Success",
         title: "The mobile app transformed how we manage field inspections—seamless, intuitive, and offline-capable. Essential tool.",
-        author: "Sarah Chen",
-        company: "Mortenson"
+        // author: "Sarah Chen",
+        // company: "Mortenson"
     },
     data_3: {
         preTitle: "Client Success",
         title: "Their consulting helped us identify and implement automation that cut project delivery time by 20%. Highly recommend.",
-        author: "Robert Gonzales",
-        company: "Walsh Group"
+        // author: "Robert Gonzales",
+        // company: "Walsh Group"
     },
 };
 
@@ -212,29 +212,35 @@ const pricingData = {
 };
 
 const faqData = {
-    data: [
-        {
-            faq_que: "What services does your agency offer?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
-        },
-        {
-            faq_que: "How long does a typical project take?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
-        },
-        {
-            faq_que: "Do you offer custom designs, or do you use templates?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
-        },
-        {
-            faq_que: "What’s the cost of a project?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
-        },
-        {
-            faq_que: "Do you provide ongoing support after project completion?",
-            faq_ans: 'Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.'
-        }
-    ]
+  data: [
+    {
+      faq_que: "What services do you offer for construction and civil teams?",
+      faq_ans:
+        "We build AI scripts, Android field apps, dashboards, and automation systems for construction operations, plus robotics, SHM tools, and integration support."
+    },
+    {
+      faq_que: "What kinds of workflows can you automate?",
+      faq_ans:
+        "Common automations include data extraction from PDFs and Excel, quantity takeoffs, cost and schedule tracking, RFI and submittal drafts, and document control."
+    },
+    {
+      faq_que: "Can you integrate with our tools like Procore or ACC?",
+      faq_ans:
+        "Yes, we integrate with platforms like Procore, Autodesk Construction Cloud, SharePoint, and cloud storage using APIs, exports, and connectors to fit your workflow."
+    },
+    {
+      faq_que: "How do you price projects and what affects cost?",
+      faq_ans:
+        "Pricing depends on scope, integrations, timeline, and deployment needs. We can deliver a fixed scope build or a phased prototype to production plan."
+    },
+    {
+      faq_que: "Do you provide ongoing support after delivery?",
+      faq_ans:
+        "Yes, we provide post-delivery support for rollout, training, bug fixes, and maintenance options for clients needing regular updates or added features."
+    }
+  ]
 };
+
 const contactData = {
     keypoint:["Expert Construction Technology Support","Proven Implementation & Training"],
     managerProfile:{

@@ -23,11 +23,11 @@ export default function Home() {
       <Portfolio/>
       <Services/>
       <Aboutus/>
-      <Testimonial/>
-      <Team teamdataNumber="06"/>
-      <Pricing/>
+      {/* <Testimonial/> */}
+      {/* <Team teamdataNumber="06"/> */}
+      {/* <Pricing/> */}
       <Faq/>
-      <Resources/>
+      {/* <Resources/> */}
       <Contact contactdataNumber="10"/>
     </>
   );

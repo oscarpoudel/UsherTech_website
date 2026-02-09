@@ -79,10 +79,10 @@ function Services() {
                                     {servicesData?.data[activeIndex]?.image && (
                                         <Image
                                             src={servicesData?.data[activeIndex]?.image}
-                                            alt="Service Image"
-                                            width={400}
-                                            height={250}
-                                            className="w-full h-full object-cover"
+                                            alt="Service Image"     
+                                            width={532}
+                                            height={362}
+                                            className="w-full h-full object-contain"
                                         />
                                     )}
                                 </div>

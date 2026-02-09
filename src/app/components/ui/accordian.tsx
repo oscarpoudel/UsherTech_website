@@ -14,7 +14,7 @@ const AccordionItem = React.forwardRef<
 >(({ className, ...props }, ref) => (
     <AccordionPrimitive.Item
         ref={ref}
-        className={cn("border-b border-secondary/12 dark:border-white/12", className)}
+        className={cn("border-b border-white/12", className)}
         {...props}
     />
 ))
@@ -34,7 +34,8 @@ const AccordionTrigger = React.forwardRef<
             {...props}
         >
             {children}
-            <div id="plusicon" className=" bg-secondary/12 dark:bg-white/50 p-2 md:p-3 rounded-full transition-transform duration-200 ">
+            <div id="plusicon" className=" bg-white/50 p-2 md:p-3 rounded-full transition-transform duration-200 ">
+            {/* <div id="plusicon" className=" bg-secondary/12 dark:bg-white/50 p-2 md:p-3 rounded-full transition-transform duration-200 "> */}
                 <Plus className="h-5 w-5 shrink-0 text-muted-foreground" style={{color:'#000'}} />
             </div>
         </AccordionPrimitive.Trigger>
