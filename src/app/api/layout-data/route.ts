@@ -19,20 +19,26 @@ const MenuData = [
     path: "/projects",
     newTab: false,
   },
+  {
+    id: 4,
+    title: "Products",
+    path: "/products",
+    newTab: false,
+  },
   // {
-  //   id: 4,
+  //   id: 5,
   //   title: "Blog",
   //   path: "/blog",
   //   newTab: false,
   // },
   {
-    id: 5,
+    id: 6,
     title: "Services",
     path: "/services",
     newTab: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Contact",
     path: "/contact",
     newTab: false,
@@ -66,6 +72,7 @@ const footerData = {
         { name: "About", href: "/about" },
         { name: "Services", href: "/#services" },
         { name: "Solutions", href: "/projects" },
+        { name: "Products", href: "/products" },
         { name: "Terms", href: "/terms-and-conditions" },
         { name: "Privacy Policy", href: "/privacy-policy" },
         // { name: "Error 404", href: "/not-found" }
