@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props) {
 export default async function Post({ params }: Props) {
     const { slug } = await params;
     const product = getProductBySlug(slug, [
-        "title", "description", "category", "pricing", "price", "status", "link", "github", "website", "tags", "techStack", "coverImage", "content"
+        "title", "description", "category", "pricing", "price", "status", "link", "github", "website", "tags", "techStack", "coverImage", "gallery", "content"
     ]);
 
     const content = await markdownToHtml(product.content || "");
@@ -93,6 +93,24 @@ export default async function Post({ params }: Props) {
                                     </div>
                                 </div>
                             </div>
+                            {product.gallery?.length > 0 && (
+                                <section aria-labelledby="product-gallery-heading" className="flex flex-col gap-8">
+                                    <h2 id="product-gallery-heading" className="text-4xl lg:text-5xl xl:text-56">Gallery</h2>
+                                    <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-2">
+                                        {product.gallery.map((image: string, index: number) => (
+                                            <div key={image} className={index === 0 ? "md:col-span-2" : ""}>
+                                                <Image
+                                                    src={image}
+                                                    alt={`${product.title} screenshot ${index + 1}`}
+                                                    width={1600}
+                                                    height={1000}
+                                                    className="h-auto max-h-[750px] w-full rounded-2xl object-contain"
+                                                />
+                                            </div>
+                                        ))}
+                                    </div>
+                                </section>
+                            )}
                         </div>
                     </div>
                 </div>
